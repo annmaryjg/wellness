@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/activity_gradient_background"
     tools:context=".MainActivity">
     <RelativeLayout
         android:id="@+id/homewindowtop"
@@ -16,9 +17,9 @@
             android:text="WELLNESS"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:textSize="20dp"
+            android:textSize="40dp"
             android:textStyle="bold"
-            android:textColor="#000000"/>
+            android:textColor="#00C6CF"/>
     
     </RelativeLayout>
 
@@ -71,7 +72,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image1life"/>
 
             <TextView
                 android:id="@+id/homecontent1text"
@@ -93,6 +95,24 @@
             android:layout_marginTop="30dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="30dp">
+            <ImageView
+                android:id="@+id/homecontent2image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image2pharamacy"/>
+
+            <TextView
+                android:id="@+id/homecontent2text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homecontent2image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Pharmacy"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>
@@ -105,6 +125,26 @@
             android:layout_marginTop="30dp"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="30dp">
+            <ImageView
+                android:id="@+id/homecontent3image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image3doc"/>
+
+            <TextView
+                android:id="@+id/homecontent3text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homecontent3image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Doctors and hospital services"
+                android:textAlignment="center"
+                android:textSize="13"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>
@@ -117,6 +157,24 @@
             android:layout_marginTop="30dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="30dp">
+            <ImageView
+                android:id="@+id/homecontent4image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image4record"/>
+
+            <TextView
+                android:id="@+id/homecontent4text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homecontent4image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Records"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>
@@ -129,6 +187,24 @@
             android:layout_marginTop="30dp"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="30dp">
+            <ImageView
+                android:id="@+id/homecontent5image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image5fitness"/>
+
+            <TextView
+                android:id="@+id/homecontent5text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homecontent5image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Fitness & Diet"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>
@@ -141,6 +217,24 @@
             android:layout_marginTop="30dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="30dp">
+            <ImageView
+                android:id="@+id/homecontent6image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/image6bell"/>
+
+            <TextView
+                android:id="@+id/homecontent6text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homecontent6image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Remainder"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
 
 
         </RelativeLayout>
