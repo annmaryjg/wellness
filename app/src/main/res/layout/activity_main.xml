@@ -27,7 +27,8 @@
         android:id="@+id/homewindowbottom"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="#ffff">
 
         <ImageView
             android:layout_width="35dp"
@@ -41,6 +42,7 @@
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
+
             android:src="@drawable/image8profile"
             />
 
@@ -49,6 +51,7 @@
             android:layout_height="40dp"
             android:layout_centerHorizontal="true"
             android:layout_marginRight="20dp"
+            android:src="@drawable/image8home"
             />
 
 
@@ -56,20 +59,21 @@
 
     <RelativeLayout
         android:id="@+id/intitalcontents"
-        android:layout_below="@id/homewindowtop"
-        android:layout_above="@id/homewindowbottom"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp">
+        android:layout_above="@id/homewindowbottom"
+        android:layout_below="@id/homewindowtop"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp">
 
         <RelativeLayout
             android:id="@+id/homecontent1"
             android:layout_width="120dp"
             android:layout_height="140dp"
-            android:layout_marginTop="30dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#ffff">
 
             <ImageView
                 android:id="@+id/homecontent1image"
@@ -77,7 +81,7 @@
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image1life"/>
+                android:src="@drawable/image1life" />
 
             <TextView
                 android:id="@+id/homecontent1text"
@@ -88,7 +92,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Life Line"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -96,16 +100,18 @@
             android:id="@+id/homecontent2"
             android:layout_width="120dp"
             android:layout_height="140dp"
-            android:layout_marginTop="30dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="30dp">
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffff">
+
             <ImageView
                 android:id="@+id/homecontent2image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image2pharamacy"/>
+                android:src="@drawable/image2pharamacy" />
 
             <TextView
                 android:id="@+id/homecontent2text"
@@ -116,26 +122,28 @@
                 android:layout_marginTop="10dp"
                 android:text="Pharmacy"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/homecontent3"
-            android:layout_below="@id/homecontent1"
             android:layout_width="120dp"
             android:layout_height="140dp"
-            android:layout_marginTop="30dp"
+            android:layout_below="@id/homecontent1"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#ffff">
+
             <ImageView
                 android:id="@+id/homecontent3image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image3doc"/>
+                android:src="@drawable/image3doc" />
 
             <TextView
                 android:id="@+id/homecontent3text"
@@ -146,9 +154,9 @@
                 android:layout_marginTop="10dp"
                 android:text="Doctors and hospital services"
                 android:textAlignment="center"
-                android:textSize="13dp"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textSize="13dp"
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
@@ -158,16 +166,18 @@
             android:layout_width="120dp"
             android:layout_height="140dp"
             android:layout_below="@id/homecontent2"
-            android:layout_marginTop="30dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="30dp">
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffff">
+
             <ImageView
                 android:id="@+id/homecontent4image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image4record"/>
+                android:src="@drawable/image4record" />
 
             <TextView
                 android:id="@+id/homecontent4text"
@@ -178,26 +188,28 @@
                 android:layout_marginTop="10dp"
                 android:text="Records"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/homecontent5"
-            android:layout_below="@id/homecontent3"
             android:layout_width="120dp"
             android:layout_height="140dp"
-            android:layout_marginTop="30dp"
+            android:layout_below="@id/homecontent3"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#ffff">
+
             <ImageView
                 android:id="@+id/homecontent5image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image5fitness"/>
+                android:src="@drawable/image5fitness" />
 
             <TextView
                 android:id="@+id/homecontent5text"
@@ -208,26 +220,28 @@
                 android:layout_marginTop="10dp"
                 android:text="Fitness and Diet"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </RelativeLayout>
 
         <RelativeLayout
             android:id="@+id/homecontent6"
-            android:layout_below="@id/homecontent4"
             android:layout_width="120dp"
             android:layout_height="140dp"
-            android:layout_marginTop="30dp"
+            android:layout_below="@id/homecontent4"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="30dp">
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffff">
+
             <ImageView
                 android:id="@+id/homecontent6image"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/image6bell"/>
+                android:src="@drawable/image6bell" />
 
             <TextView
                 android:id="@+id/homecontent6text"
@@ -238,7 +252,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Remainder"
                 android:textColor="#000000"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </RelativeLayout>

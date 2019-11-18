@@ -20,11 +20,9 @@ public class Splash_page extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-
                 Intent mainIntent = new Intent(Splash_page.this,login.class);
                 Splash_page.this.startActivity(mainIntent);
                 Splash_page.this.finish();

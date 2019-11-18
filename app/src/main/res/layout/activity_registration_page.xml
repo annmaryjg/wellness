@@ -23,16 +23,161 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:layout_below="@+id/regwindowtop"
         android:id="@+id/maincontents"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+            <RelativeLayout
+                android:id="@+id/firsttab"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="40dp"
+                android:background="#ffff">
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30dp"/>
+
+
+            </RelativeLayout>
         <RelativeLayout
-            android:layout_width="140dp"
+            android:id="@+id/rsectab"
+            android:layout_toRightOf="@+id/firsttab"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NAME"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/thirdtab"
+            android:layout_below="@+id/firsttab"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="#ffff">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rfourtab"
+            android:layout_toRightOf="@+id/thirdtab"
+            android:layout_below="@+id/rsectab"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/fifthtab"
+            android:layout_below="@+id/thirdtab"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="#ffff">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rsixtab"
+            android:layout_toRightOf="@+id/fifthtab"
+            android:layout_below="@+id/rfourtab"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            </TextView>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/seventab"
+            android:layout_below="@+id/fifthtab"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:background="#ffff">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/reighttab"
+            android:layout_toRightOf="@+id/seventab"
+            android:layout_below="@+id/rsixtab"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+
+
+       <RelativeLayout
+            android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="90dp"
+           android:background="#FFFF"
             >
             <TextView
                 android:layout_width="wrap_content"
@@ -41,8 +186,8 @@
                 android:textStyle="bold"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:textSize="20dp"
-                android:background="#FFFF">
+                android:textSize="25dp"
+                >
 
             </TextView>
 
