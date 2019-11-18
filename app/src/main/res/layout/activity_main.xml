@@ -30,22 +30,26 @@
         android:layout_alignParentBottom="true">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/image7info" />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+            android:src="@drawable/image8profile"
+            />
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+            />
 
 
     </RelativeLayout>
@@ -142,7 +146,7 @@
                 android:layout_marginTop="10dp"
                 android:text="Doctors and hospital services"
                 android:textAlignment="center"
-                android:textSize="13"
+                android:textSize="13dp"
                 android:textColor="#000000"
                 android:textStyle="bold"/>
 
@@ -202,7 +206,7 @@
                 android:layout_below="@id/homecontent5image"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:text="Fitness & Diet"
+                android:text="Fitness and Diet"
                 android:textColor="#000000"
                 android:textStyle="bold"/>
 
